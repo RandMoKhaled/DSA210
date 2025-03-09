@@ -1,5 +1,5 @@
 # DSA210
-# **The Impact of Screen Time on Study Patterns and Stress Levels**
+# **The Impact of Screen Time and Study Patterns on Stress Levels**
 
 ## **Project Overview**
 In todays age digital devices are used for a variatey of purposes including entertainment and academic activities. However, screen time can also impact the effectiveness of studying as it imposes a huge distraction, and hence may lead to a rise in stress levels. My project aims to explore the link between screen time, studying habits and its effect on my stress levels.
