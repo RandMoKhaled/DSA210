@@ -27,12 +27,17 @@ The goal of this project is to better understand digital habits and optimize the
   - Session duration (in minutes).
   - Subject studied (e.g., Math, Science).
   - Study methods (e.g., reading, problem-solving, note-taking).
-  - Number of interruptions (e.g., notifications, app switches, or breaks initiated by device usage).
-  - Objective productivity metrics: number of tasks completed (e.g., pages read, problems solved, or sections reviewed) during each session.
-
-- **Added Objective Metrics**:
-  - **Number of Interruptions**: A quantifiable measure (e.g., counting notifications or app switches) replaces the subjective perception of focus.
-  - **Objective Productivity Metrics**: Instead of self-rating, productivity is now measured by concrete outputs, such as the number of tasks completed (e.g., pages read, problems solved). This provides an objective way to assess study effectiveness.
+  - Number of interruptions, measured objectively through various factors:
+    - **Types of interruptions**: These include notifications from social media, messaging apps, non-study-related browsing, and physical distractions.
+    - **Frequency and duration**: The number of times interruptions occur and how long they last.
+    - **Recovery time**: The time it takes to regain focus after each interruption (e.g., the delay before resuming a study task).
+    - **Impact on productivity**: Analyzing whether frequent interruptions lead to lower task completion rates or reduced retention of study material.
+  - **Objective productivity metrics:**
+    - Number of tasks completed (e.g., pages read, problems solved, or sections reviewed) during each session.
+    - Percentage of planned study tasks completed.
+    - Quiz/test scores after study sessions to measure retention.
+    - Time spent on active studying vs. passive studying (e.g., reading vs. problem-solving).
+    - Frequency of task-switching (how often a student switches between different study tasks or unrelated activities).
 
 
 
