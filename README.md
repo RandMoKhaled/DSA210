@@ -1,43 +1,55 @@
-**The Impact of Screen Time on Study Patterns**
+# Huda Beauty Shade Inclusivity: Data Science Project
 
-### Project Overview
-In today's digital age, devices are widely used for both academic and entertainment purposes. However, excessive screen time may impact study effectiveness by introducing distractions that reduce focus. This project explores the relationship between screen time and study habits, analyzing how digital device usage affects study duration and productivity using objective data.
+## Overview
 
-### Motivation
-The goal of this project is to better understand digital habits and optimize them for improved academic performance. While technology provides access to knowledge and enhances learning, it can also create distractions that disrupt study routines. By examining the effects of screen time on studying, students can develop strategies to manage their digital habits and improve focus based on measurable data.
+This project explores the extent to which Huda Beauty’s claims of shade inclusivity in its complexion product lines (such as foundations and concealers) are supported by customer feedback and reviews. By analyzing user reviews, product shade data, and social media sentiment, we aim to evaluate whether customers with different skin tones experience equal satisfaction, or if gaps exist despite the brand's inclusive marketing.
 
-### Research Questions
-- How does screen time affect study duration and effectiveness?
-- What is the relationship between screen usage and study habits?
-- Does prolonged screen usage influence study efficiency?
+## Purpose of the Project
 
-### Data Collection
-#### Tools Used
-- Notion
-- Google Sheets
-- Screen Time
+The purpose of this project is to assess whether Huda Beauty's product offerings, particularly foundations and concealers, provide shade options that meet the needs of a diverse range of skin tones. We analyze reviews and sentiment data to determine if customers from underrepresented skin tones (e.g., deep/dark) report similar levels of satisfaction as customers with lighter skin tones. This study provides valuable insights into the real-world impact of inclusivity in the beauty industry.
 
-#### Screen Time Data
-- Collected from built-in phone and laptop tracking tools (e.g., Digital Wellbeing, Screen Time, RescueTime).
-- Categorized into different app types: study-related (e.g., educational apps, research tools), entertainment/social media (e.g., YouTube, Instagram), and communication apps (e.g., WhatsApp, email).
+## Motivation
 
-#### Study Patterns
-- Logged using Notion or Google Sheets by tracking study sessions over a defined period (e.g., 2 weeks).
-- Recorded data includes:
-  - Session duration (in minutes).
-  - Subject studied (e.g., Math, Science).
-  - Study methods (e.g., reading, problem-solving, note-taking).
-  - Number of interruptions, measured objectively through various factors:
-    - **Types of interruptions**: These include notifications from social media, messaging apps, non-study-related browsing, and physical distractions.
-    - **Frequency and duration**: The number of times interruptions occur and how long they last.
-    - **Recovery time**: The time it takes to regain focus after each interruption (e.g., the delay before resuming a study task).
-    - **Impact on productivity**: Analyzing whether frequent interruptions lead to lower task completion rates or reduced retention of study material.
-  - **Objective productivity metrics:**
-    - Number of tasks completed (e.g., pages read, problems solved, or sections reviewed) during each session.
-    - Percentage of planned study tasks completed.
-    - Quiz/test scores after study sessions to measure retention.
-    - Time spent on active studying vs. passive studying (e.g., reading vs. problem-solving).
-    - Frequency of task-switching (how often a student switches between different study tasks or unrelated activities).
+Huda Beauty is a globally recognized makeup brand with a reputation for being highly inclusive, especially in complexion products. The brand's marketing and product claims emphasize diversity, but it's important to assess whether this inclusivity translates to actual customer satisfaction. This project evaluates whether Huda Beauty lives up to its inclusive image by analyzing customer reviews, sentiments, and skin tone-based feedback.
+
+## Data Source
+
+1. **Product and Shade Data**:
+   - Collected from Sephora’s and Huda Beauty's websites.
+   - Includes product names, number of shades, descriptions, and launch dates for complexion products like foundations and concealers.
+
+2. **Customer Reviews**:
+   - Scraped from Sephora, Ulta, and MakeupAlley.
+   - Data includes user ratings, text reviews, and mentions of skin tone.
+
+3. **Social Media Data**:
+   - Collected tweets containing hashtags like #hudabeauty and #fauxfilterfoundation.
+   - Extracted Reddit comments from beauty communities.
+
+4. **Enrichment**:
+   - Mapped product shades to generalized skin tone categories (light, medium, dark, deep).
+   - Used the Fitzpatrick scale to categorize user descriptions of their skin tone.
+
+## Data Analysis
+
+1. **Preprocessing**:
+   - Cleaned review data by removing HTML tags and irrelevant content.
+   - Standardized terminology for shades and undertones to facilitate analysis.
+
+2. **Exploratory Data Analysis (EDA)**:
+   - Visualized the distribution of shades per product.
+   - Generated word clouds for different skin tone groups to identify common themes in reviews.
+
+3. **Sentiment Analysis**:
+   - Analyzed sentiment using VADER and TextBlob libraries to calculate sentiment scores of reviews.
+   - Compared average sentiment scores across different skin tone groups.
+
+4. **Hypothesis Testing**:
+   - Null Hypothesis (H₀): There is no significant difference in average sentiment between skin tone groups.
+   - Applied ANOVA test to validate or reject the hypothesis.
+
+5. **Machine Learning**:
+   - Built a logistic regression model to predict the sentiment of reviews (positive/negative) based on features such as skin tone, number of shades, and sentiment keywords.
 
 
 
