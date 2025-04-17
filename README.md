@@ -41,7 +41,7 @@ Huda Beauty is a globally recognized makeup brand with a reputation for being hi
    - Generated word clouds for different skin tone groups to identify common themes in reviews.
 
 3. **Sentiment Analysis**:
-   - Analyzed sentiment using VADER and TextBlob libraries to calculate sentiment scores of reviews.
+   - Analyzed sentiment using VADER to calculate sentiment scores of reviews.
    - Compared average sentiment scores across different skin tone groups.
 
 4. **Hypothesis Testing**:
